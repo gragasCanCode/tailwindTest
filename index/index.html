@@ -7,21 +7,25 @@
     <title>Your Riot</title>
   </head>
 
-  <body class="bg-gray-100 font-sans">
-    <nav class="h-20 shadow-lg p-3 flex items-center">
-      <div>
+  <body class="bg-gray-100">
+    <nav class="h-16 shadow-lg p-3">
+      <div class="flex items-center float-left">
         <img
           class="w-10 ml-5"
           src="../src/images/riot-logo.png"
           alt="riot-logo"
         />
+        <div class="ml-3">
+          <a
+            class="text-2xl text-red-600 font-bold uppercase leading-relaxed"
+            href="https://www.riotgames.com/en"
+            >your riot</a
+          >
+        </div>
       </div>
-      <div class="ml-3">
-        <a
-          class="text-2xl text-red-600 font-bold uppercase leading-relaxed"
-          href="https://www.riotgames.com/en"
-          >your riot</a
-        >
+      <div class="float-right clearfix pt-2 text-lg font-semibold text-red-500">
+        <a href="#" class="mr-4">전적검색</a>
+        <a href="#">커뮤니티</a>
       </div>
     </nav>
     <main class="h-screen">
@@ -126,13 +130,13 @@
           <form action="">
             <input
               type="text"
-              class="box-border w-full p-2 rounded-lg text-center shadow-xl"
+              class="box-border w-full p-2 text-center shadow-xl focus:outline-none"
               placeholder="search your nickname"
             />
           </form>
         </div>
         <!-- Community -->
-        <div class="w-full mt-20 shadow-xl rounded-md">
+        <div class="w-full mt-20 shadow-xl">
           <div class="w-full bg-red-500 p-3 rounded-md rounded-b-none">
             <a
               href="#"
@@ -140,23 +144,22 @@
               >Your Riot Community</a
             >
           </div>
-          <div></div>
-          <article class="border-red-300 border-b-2 p-4">
+          <article class="border-red-300 border-b-1 p-4">
             <div class="inline-block font-bold text-red-600">1</div>
             <div class="inline-block">lck 최근 우세 팀 정리.jpg</div>
             <div class="inline-block text-gray-600">기인화이팅</div>
           </article>
-          <article class="border-red-300 border-b-2 p-4">
+          <article class="border-red-300 border-b-1 p-4">
             <div class="inline-block font-bold text-red-600">2</div>
             <div class="inline-block">올라프 잡고 던지면 안되는 이유 ㄷㄷ</div>
             <div class="inline-block text-gray-600">올라프장인</div>
           </article>
-          <article class="border-red-300 border-b-2 p-4">
+          <article class="border-red-300 border-b-1 p-4">
             <div class="inline-block font-bold text-red-600">3</div>
             <div class="inline-block">코로나 방역사태 최고 수혜자</div>
             <div class="inline-block text-gray-600">미미앙</div>
           </article>
-          <article class="border-red-300 border-b-2 p-4">
+          <article class="p-4 rounded-b-md">
             <div class="inline-block font-bold text-red-600">4</div>
             <div class="inline-block">한국산 fps가 망하는 이유</div>
             <div class="inline-block text-gray-600">클럭스</div>
